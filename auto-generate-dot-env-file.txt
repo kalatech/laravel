@@ -1,0 +1,19 @@
+Install the package using composer:
+
+composer require mathiasgrimm/laravel-dot-env-gen:dev-master
+Add the service provider:
+
+// config/app.php
+
+'providers' => [
+    ...
+    'MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider',
+    ...
+],
+Add .env.gen to your .gitignore
+
+
+
+For more details :
+
+https://github.com/mathiasgrimm/laravel-dot-env-gen
